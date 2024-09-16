@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Concert One", cursive;
+}
+.navbar {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(173, 173, 234, 0.3);
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  justify-content: space-around;
+  font-size: 18px;
+  color: #423f8d;
+  font-weight: 500;
+}
+.navbar button {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(173, 173, 234);
+  margin: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  background: #12d9df;
+  border: 0px solid;
+  border-radius: 30px;
+}
+
+/* banner part  */
+.inner_1 h1 {
+  font-size: 40px;
+  display: block;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.inner_1 {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #423f8d;
+}
+.inner_1 h1 span {
+  font-family: "Fredoka One", cursive;
+  font-size: 40px;
+  font-weight: 500;
+  color: #ed078b;
+  text-transform: capitalize;
+  display: inline-block;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+.main_div_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px auto;
+
+  width: 90%;
+}
+.inner_to_inner_1 {
+  height: 100px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+/* class we offer aprt */
+.class_offer_1 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #423f8d;
+}
+.class_offer_1 h1 {
+  font-size: 40px;
+  display: block;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.class_offer_2 {
+  display: flex;
+  margin: 20px auto;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.class_offer_inner {
+  border-radius: 50px;
+  box-shadow: 3px 3px 10px rgba(173, 173, 234, 0.3);
+  margin: 30px;
+  width: 26.5%;
+  color: #423f8d;
+  padding-bottom: 50px;
+}
+
+.class_offer_inner_1 {
+  padding: 10px 7px;
+  border-top: 0.3px solid rgb(192, 190, 190);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* more classes button  */
+
+.class_offer_inner p {
+  font-family: "DM Sans", sans-serif;
+  color: #5e5e5e;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.button_aftre_class_offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button_aftre_class_offer button {
+  border: 1px solid #ed078b;
+  color: #ed078b;
+  font-family: "Fredoka One", cursive;
+  background: none;
+  /* text-transform: capitalize; */
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: large;
+}
+.button_aftre_class_offer button:hover {
+  background-color: #ed078b;
+  color: #fff;
+}
+
+/* expert teacher part  */
+.expert_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #423f8d;
+}
+.expert_inner h1 {
+  font-size: 40px;
+  display: block;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.expert_inner p {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.expert_inner_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto 80px auto;
+  text-align: center;
+}
+.expert_inner_2 h2 {
+  color: #2c234d;
+  font-weight: 700;
+  font-size: 20px;
+}
+.expert_inner_2 p {
+  color: #2c234d;
+}
+footer {
+  height: 400px;
+  background-color: #4d4b85;
+  color: #fff;
+}
+.fotter_part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fotter_part h2 {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.fotter_icons i {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #45418e;
+}
+.fotter_part a {
+  text-decoration: none;
+  color: #fff;
+}
+.fotter_lower {
+  text-align: center;
+  font-size: large;
+}
