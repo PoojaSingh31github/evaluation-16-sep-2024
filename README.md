@@ -11,9 +11,4 @@ A simple kindergarten-themed website.
 - **Expert Teachers**: Information about the teaching staff.
 - **Footer**: Links to social media and quick navigation options.
 
-## Screenshots
-
-![Kindergarten Banner](https://preview.colorlib.com/theme/kindergarten/assets/img/gallery/about2.png.webp)
-
-![Expert Teachers](https://preview.colorlib.com/theme/kindergarten/assets/img/gallery/team1.png)
 
